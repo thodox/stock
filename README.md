@@ -56,10 +56,52 @@ LSTM có khả năng dự đoán tốt hơn tại bước nhảy thời gian d�
 
 
 
-## Kết quả
+# Kết quả
 
-## Dự đoán trên LSTM
+## Dự đoán trên LSTM của giá cổ phiếu PNJ
 ![image](https://github.com/user-attachments/assets/fd640191-357a-47fc-8a86-ca9ab80eb107)
+
+
+
+**Phân Tích Biểu Đồ:**
+
+Đường Xanh (Actual): Đây là giá cổ phiếu thực tế của PNJ từ giữa năm 2020 đến cuối năm 2020. Đường này phản ánh giá cổ phiếu thật và là cơ sở để đánh giá độ chính xác của mô hình dự đoán.
+
+Đường Đỏ (Predicted): Đây là kết quả dự đoán từ mô hình LSTM (hoặc mô hình khác) của chúng tôi. Đường này cho thấy khả năng của mô hình trong việc dự đoán xu hướng giá cổ phiếu và được so sánh với giá thực tế.
+
+**Độ Chính Xác của Mô Hình:**
+
+Đường dự đoán (màu đỏ) bám sát đường thực tế (màu xanh), cho thấy mô hình dự đoán tốt xu hướng chung. Các sai lệch nhỏ là bình thường, vì thị trường có nhiều yếu tố khó dự đoán chính xác tuyệt đối.
+
+Mô hình nhận diện tốt các biến động tăng giảm, đặc biệt trong giai đoạn tháng 10 đến tháng 12, khi giá cổ phiếu PNJ tăng mạnh. Kết quả cho thấy mô hình có khả năng dự đoán khá ổn định các biến động ngắn hạn.
+
+**Kết Luận:**
+
+Mô hình LSTM đạt độ chính xác cao trong việc dự đoán giá cổ phiếu PNJ trong khoảng thời gian này. Các biến động ngắn hạn mạnh hoặc đột ngột có thể chưa được dự đoán chính xác hoàn toàn, nhưng điều này có thể cải thiện với dữ liệu bổ sung hoặc điều chỉnh mô hình.
+
+
+
+
+
+
+
+
+
+
+
+
+## Dự đoán trên RF của cổ phiếu PNJ
+![image](https://github.com/user-attachments/assets/b1146758-8599-4323-98bd-85f29a09db65)
+
+Đường Màu Xanh (Actual): Đây là đường biểu thị giá cổ phiếu PNJ thực tế từ giữa năm 2020 đến cuối năm 2020. Đường này cho thấy dữ liệu chuẩn để đánh giá độ chính xác của mô hình dự đoán.
+
+Đường Màu Đỏ (Predicted): Đây là kết quả dự đoán giá cổ phiếu của mô hình Random Forest. Đường dự đoán này được so sánh trực tiếp với giá thực tế để đánh giá hiệu suất mô hình.
+
+**Độ Phù Hợp Giữa Dự Đoán và Thực Tế**: Đường dự đoán (màu đỏ) bám sát đường thực tế (màu xanh) khá tốt, cho thấy mô hình có khả năng dự đoán xu hướng chung của giá cổ phiếu PNJ. Tuy có một số điểm mà đường dự đoán khác biệt so với thực tế, nhưng nhìn chung, các biến động chính của thị trường đã được mô hình dự đoán đúng.
+
+**Biến Động Giá và Xu Hướng**: Mô hình đã nắm bắt được các xu hướng tăng giảm, đặc biệt là vào giai đoạn từ tháng 10 đến tháng 12, khi giá cổ phiếu tăng rõ rệt. Kết quả cho thấy mô hình dự đoán khá ổn định các biến động ngắn hạn của giá cổ phiếu.
+
+**Kết Luận:** Biểu đồ này cho thấy mô hình Random Forest có hiệu quả trong việc dự đoán giá cổ phiếu PNJ trong giai đoạn trên. Mặc dù có một số sai lệch nhỏ, mô hình vẫn đảm bảo được khả năng dự đoán xu hướng tổng quan của thị trường.
 
 
 
