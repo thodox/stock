@@ -111,7 +111,7 @@ Mô hình LSTM đạt độ chính xác cao trong việc dự đoán giá cổ p
 
 # Hướng phát triển tương lai
 
-Để tối ưu hóa và mở rộng khả năng của mô hình dự đoán giá cổ phiếu với LSTM, dưới đây là các hướng phát triển tiềm năng:
+Để tối ưu hóa và mở rộng khả năng của mô hình dự đoán giá cổ phiếu với LSTM, các hướng phát triển tiềm năng có thể đi như sau:
 
 ## 1. Nâng cao dữ liệu đầu vào
    - **Bổ sung các yếu tố kinh tế vĩ mô**: Thêm các biến số như lãi suất, lạm phát, GDP và các chỉ số kinh tế toàn cầu để giúp mô hình hiểu thêm về bối cảnh chung và dự đoán chính xác hơn.
@@ -138,7 +138,6 @@ Mô hình LSTM đạt độ chính xác cao trong việc dự đoán giá cổ p
    - **Ứng dụng mô hình vào các sản phẩm giao dịch tự động**: Tích hợp mô hình vào hệ thống giao dịch tự động để đưa ra các quyết định mua/bán cổ phiếu dựa trên dự đoán của mô hình.
    - **Kiểm tra và đánh giá qua dữ liệu thực tế**: Thực hiện kiểm tra trong thời gian thực (backtesting) để đánh giá hiệu quả của mô hình trong các tình huống thực tế và liên tục tinh chỉnh dựa trên phản hồi từ thị trường.
 
-Những hướng phát triển này không chỉ giúp mô hình dự đoán giá cổ phiếu chính xác hơn mà còn mở rộng khả năng ứng dụng, giúp cung cấp các dự báo hiệu quả và đáng tin cậy hơn cho người dùng trong lĩnh vực đầu tư và phân tích tài chính.
 
 
 
