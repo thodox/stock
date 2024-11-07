@@ -51,3 +51,17 @@ Ngoài LSTM, mô hình Ensemble Learning như **Random Forest** cũng sẽ đư�
 
 ## 7. Nhận xét
 LSTM có khả năng dự đoán tốt hơn tại bước nhảy thời gian dự đoán (như 60 phút) so với Random Forest nhờ khả năng lưu trữ thông tin dài hạn, giúp dự đoán chính xác hơn các biến động phức tạp trong chuỗi thời gian.
+
+
+
+
+
+## Kết quả
+
+## Dự đoán trên LSTM
+![image](https://github.com/user-attachments/assets/fd640191-357a-47fc-8a86-ca9ab80eb107)
+
+
+
+
+
