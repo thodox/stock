@@ -60,7 +60,7 @@ LSTM có khả năng dự đoán tốt hơn tại bước nhảy thời gian d�
 
 Mô tả kết quả dự đoán của cổ phiếu PNJ, các cổ phiếu khác vui lòng xem trong file **stock.ipynb**
 
-## Dự đoán trên LSTM của giá cổ phiếu PNJ
+## Dự đoán trên LSTM của giá cổ phiếu PNJ với T= 60 đvtg (đơn vị thời gian)
 ![image](https://github.com/user-attachments/assets/fd640191-357a-47fc-8a86-ca9ab80eb107)
 
 
